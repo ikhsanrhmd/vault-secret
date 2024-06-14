@@ -9,3 +9,9 @@ resource "github_repository_collaborator" "ikhsanrhmd3_repobaru1-collaborator" {
   username   = "ikhsanrhmd3"
   permission = "push"
 }
+
+resource "github_repository_collaborator" "ikhsanrhmd3_repobaru12-collaborator" {
+  repository = "repobaru12"
+  username   = "ikhsanrhmd3"
+  permission = "push"
+}
