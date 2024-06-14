@@ -15,3 +15,9 @@ resource "github_repository_collaborator" "ikhsanrhmd3_repobaru12-collaborator" 
   username   = "ikhsanrhmd3"
   permission = "push"
 }
+
+resource "github_repository_collaborator" "ikhsanrhmd32_repobaru122-collaborator" {
+  repository = "repobaru122"
+  username   = "ikhsanrhmd32"
+  permission = "push"
+}
