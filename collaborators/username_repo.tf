@@ -3,3 +3,9 @@ resource "github_repository_collaborator" "ikhsanrhmd31_repobaru31-collaborator"
   username   = "ikhsanrhmd31"
   permission = "push"
 }
+
+resource "github_repository_collaborator" "ikhsanrhmd3_repobaru1-collaborator" {
+  repository = "repobaru1"
+  username   = "ikhsanrhmd3"
+  permission = "push"
+}
